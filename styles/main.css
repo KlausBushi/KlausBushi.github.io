@@ -23,7 +23,7 @@ img{
     margin-right: 1em;
 }
 .shadow{
-    text-shadow: 2px, 2px, 2px, rgb(128.0.0);
+    text-shadow: 2px 2px 2px rgb(128,0,0);
 }
 main{
     clear:left;
@@ -33,7 +33,7 @@ main h3{
     font-size: 105%;
 }
 #list{
-    line-height 1.5 em;
+    line-height: 1.5em;
 }
 #copyright{
         text-align:center;
