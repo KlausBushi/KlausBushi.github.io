@@ -18,7 +18,6 @@ header h2{
     color: #800000;
     text-indent: 30px;
 }
-
-header {
-    float:left;
+img{ 
+    float: left;
 }
