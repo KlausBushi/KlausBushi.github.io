@@ -20,4 +20,5 @@ header h2{
 }
 head{ 
     float: left;
+    margin-right:1em;
 }
