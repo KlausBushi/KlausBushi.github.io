@@ -20,7 +20,7 @@ header h2{
 }
 img{ 
     float: left;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 .shadow{
     text-shadow: 2px 2px 2px rgb(128,0,0);
