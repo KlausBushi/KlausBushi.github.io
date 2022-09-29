@@ -69,3 +69,7 @@ aside {
     padding: 01.em 1em 1em;
     background-color: #ffebc6;
 }
+footer p.copyright{
+    text-align:center;
+    font-size: 80%;
+}
