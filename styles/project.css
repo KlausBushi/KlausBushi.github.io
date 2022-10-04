@@ -24,7 +24,6 @@ a:focus, a:hover{
     border-style: dotted solid;
 }
 header{
-    clear:right;
     border-bottom: 2px solid maroon;
 }
 header h1{
