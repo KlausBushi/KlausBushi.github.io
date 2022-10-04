@@ -25,7 +25,7 @@ a:focus, a:hover{
 }
 header{
     border-bottom: 2px solid maroon;
-    padding-bottom: 1em;
+    padding-top: 1.5em;
 }
 header h1{
     font-size: 175%;
