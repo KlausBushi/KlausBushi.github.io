@@ -73,7 +73,7 @@ article p::first-letter{
 aside {
     width: 20%;
     float: right;
-    padding: 01.em 1em 1em;
+    padding: 1em 1em 1em;
     background-color: #ffebc6;
 }
 footer {
