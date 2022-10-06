@@ -1,6 +1,6 @@
 html{
 
-    background-image:linear-gradient(blue);
+    background-image:linear-gradient(to bottom,white 0%, #facd8a 100%);
 }
 
 body{
