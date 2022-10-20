@@ -21,6 +21,11 @@ body{
 article {
     width: 75%;
 }
+article p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
 aside{
     width: 20%;
 }
