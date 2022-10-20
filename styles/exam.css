@@ -20,6 +20,7 @@ body{
 }
 article {
     width: 75%;
+    column-span: all ;
 }
 article p::first-letter{
     font-size: 3em;
