@@ -13,9 +13,16 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
+body{
+    width: 95%;
+    margin: 15px auto;
+
+}
 article {
-    clear: left;
-    padding-top: 1em;
+    width: 75%;
+}
+aside{
+    width: 20%;
 }
 
 ol {list-style-type: upper-roman;}
