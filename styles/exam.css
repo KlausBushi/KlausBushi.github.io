@@ -37,8 +37,8 @@ header {
     border-top: 2px solid blue;
 }
 #nav_menu{
-    border-bottom: 3px solid blue;
-    padding-bottom: 3em;
+    border-bottom: 4px solid blue;
+    padding-bottom: 4em;
 }
 
 article {
@@ -49,7 +49,6 @@ article {
     column-rule: 3px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
-    padding-top: 0.2em;
 }
 article {
     display: block;
