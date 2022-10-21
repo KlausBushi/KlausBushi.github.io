@@ -13,6 +13,12 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
+header {
+
+    border-bottom: 2px solid blue;
+    padding-bottom: 1em;
+}
+
 body{
     width: 95%;
     margin: 15px auto;
@@ -45,7 +51,19 @@ article p::first-letter{
 }
 aside{
     width: 20%;
-}
+    float: right;
+    padding: 1em 1em 1em;
+    background-color: teal;
 
+}
+footer {
+    clear: both;
+    border-top: blue;
+
+}
+footer p.copyright{
+    text-align: center;
+    font-size: 80%;
+}
 ol {list-style-type: upper-roman;}
 ul {list-style-type: square;}
