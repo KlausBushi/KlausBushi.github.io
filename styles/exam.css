@@ -36,8 +36,8 @@ body {
 
 }
 nav {
-    border-bottom: 3px solid blue;
-    padding-bottom: 4em;
+    border-bottom: 1px solid blue;
+    padding-bottom: 1em;
 }
 
 article {
