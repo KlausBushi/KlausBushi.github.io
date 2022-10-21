@@ -38,6 +38,7 @@ header {
 }
 #nav_menu{
     border-bottom: 2px solid blue;
+    padding-bottom: 2em;
 }
 
 article {
