@@ -18,6 +18,9 @@ ul {list-style-type: square;}
 html {
     background-image: linear-gradient(to left, white 0%, #9bddf4 100%);
 }
+header {
+    padding-bottom: 2em;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
