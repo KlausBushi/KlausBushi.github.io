@@ -39,6 +39,7 @@ header {
 #nav_menu{
     display: block;
     float: top;
+    border-bottom: 2px solid blue;
 }
 
 article {
