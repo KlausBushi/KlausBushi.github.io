@@ -37,8 +37,6 @@ header {
     border-top: 2px solid blue;
 }
 #nav_menu{
-    display: block;
-    float: top;
     border-bottom: 2px solid blue;
     padding-bottom: 5em;
 }
