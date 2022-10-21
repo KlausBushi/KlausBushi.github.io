@@ -1,3 +1,22 @@
+
+html {
+    background-image: linear-gradient(to left, white 0%, #9bddf4 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+    width: 95%;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    background-color: white;
+    border: 1px, solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+
+}
+
 #nav_menu ul {list-style-type: none;}
 #nav_menu ul li {float: left;}
 #nav_menu ul li a {
@@ -12,37 +31,18 @@
     border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
-ol {list-style-type: upper-roman;}
-ul {list-style-type: square;}
 
-html {
-    background-image: linear-gradient(to left, white 0%, #9bddf4 100%);
-}
 header {
-    padding-bottom: 1em;
+    color: blue;
+    border-top: 2px solid blue;
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 95%;
-    margin: 15px auto;
-    padding-bottom: 1em;
-    background-color: white;
-    padding: 15px 1em;
-    border: 1px, solid rgb(48, 473, 47);
-    border-radius: 25px;
-    box-shadow: 3px 3pc 0 0;
-
-}
-nav {
-    border-bottom: 1px solid blue;
-    padding-bottom: 1em;
+#nav_menu{
+    display: block;
+    float: top;
 }
 
 article {
     clear: left;
-    padding-top: 3em;
     width: 75%;
     float: left;
     column-count: 3;
@@ -50,13 +50,20 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
-article p.indent {
-    float: left;
+article {
+    display: block;
+}
+article img{
+    float:left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+article p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
 }
 article h1 {
-    column-span: all;
-    padding: 1em;
-    padding-bottom: 4em;
     font-size: 175%;
     color: blue;
     text-indent: 30px;
@@ -67,32 +74,24 @@ article h2{
     color: blue;
     text-indent: 30px;
 }
-
-img{
-    float:left;
-    margin-right: 2em;
-    margin-bottom: 2em;
-}
-article p::first-letter{
-    font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
-    color: black;
-}
 aside{
     width: 20%;
     float: right;
-    padding: 1em 1em 1em;
+    padding: 0.1em 0.1em 0.1em;
     background-color: #9bddf4;
-    border: 3px solid blue;
+    border: 2px solid blue;
     position: fixed;
     right: 0;
-    bottom: 20%;
-
+}
+aside ol{
+    list-style-type: upper-roman;
+}
+aside ul{ 
+    list-style-type: square;
 }
 footer {
     clear: both;
-    border-top: blue;
+    border-top: 2px solid blue;
 
 }
 footer p.copyright{
