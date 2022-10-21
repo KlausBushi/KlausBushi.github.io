@@ -67,3 +67,11 @@ footer p.copyright{
 }
 ol {list-style-type: upper-roman;}
 ul {list-style-type: square;}
+p.fixed {
+    width: auto;
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    border: 3px solid teal;
+    background-color: lightblue;
+    padding: 1.5em 1.5em 1.5em;
