@@ -36,10 +36,11 @@ header {
     color: blue;
     border-top: 2px solid blue;
 }
-#nav_menu{
+nav{
     display: block;
     float: top;
     border-bottom: 2px solid blue;
+    padding-bottom: 3em;
 }
 
 article {
