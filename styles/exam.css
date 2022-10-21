@@ -21,6 +21,9 @@ body{
 article {
     width: 75%;
     column-span: all ;
+    
+}
+article {
     clear: left;
     width: 70%;
     float: left;
