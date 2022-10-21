@@ -33,7 +33,7 @@ body {
 
 header {
     color: blue;
-    border-top: 2px solid blue;
+    border-top: 1px solid blue;
 }
 #nav_menu{
     border-bottom: 4px solid blue;
