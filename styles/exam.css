@@ -18,21 +18,21 @@ body{
     margin: 15px auto;
 
 }
-article {
-    width: 75%;
-    column-span: all ;
-    
-}
+
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 3;
     column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
 }
-
+article h3 {
+ 
+    column-span: all ;
+    
+}
 article img{
     float:left;
     margin-right: 1em;
