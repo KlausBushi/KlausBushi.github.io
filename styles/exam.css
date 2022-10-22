@@ -68,7 +68,7 @@ article h1 {
     font-size: 175%;
     color: blue;   
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 
 }
 article h2{
@@ -76,6 +76,7 @@ article h2{
     color: blue;
     display: block;
     display: inline;
+    padding-bottom: 0.5em;
 }
 aside{
     width: 20%;
