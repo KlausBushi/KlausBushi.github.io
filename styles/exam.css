@@ -61,7 +61,7 @@ article p::first-letter{
 article h1 {
     font-size: 175%;
     color: blue;   
-    padding-bottom: 3em;
+    padding-bottom: 5em;
     padding-top: 1em;
     display: inline;
     display: block;
@@ -70,7 +70,6 @@ article h1 {
 article h2{
     font-size: 175%;
     color: blue;
-    padding-bottom: 0.2em;
     display: block;
     display: inline;
 }
