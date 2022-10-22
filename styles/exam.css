@@ -67,14 +67,13 @@ article p::first-letter{
 article h1 {
     font-size: 175%;
     color: blue;   
-    padding-top: 1em;
-    padding-bottom: 1em;
-    display: block;
-    display: inline;
+
 }
 article h2{
     font-size: 175%;
     color: blue;
+    display: block;
+    display: inline;
 }
 aside{
     width: 20%;
