@@ -65,6 +65,8 @@ article h1 {
 }
 article h1 {
     column-span: all;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 
 }
 article h2{
