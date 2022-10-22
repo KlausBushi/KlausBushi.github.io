@@ -67,6 +67,7 @@ article h1 {
 article h1{ 
     font-size: 175%;
     color: blue; 
+    display: block;
 }
 article h2{
     display: inline;
