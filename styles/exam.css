@@ -75,6 +75,7 @@ article h2 {
     padding-top: 0.1em;
     padding-bottom: 0.1em;
     display: block;
+    display: inline;
 }
 aside{
     width: 20%;
