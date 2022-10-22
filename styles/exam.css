@@ -74,6 +74,7 @@ article h2{
 article h2 {
     padding-top: 0.1em;
     padding-bottom: 0.1em;
+    margin-top: 0.5em;
     display: block;
     display: inline;
 }
