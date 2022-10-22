@@ -57,7 +57,6 @@ img{
 }
 article p::first-letter{
     font-size: 3em;
-    font-weight: bold;
 }
 article h1 {
     font-size: 175%;
