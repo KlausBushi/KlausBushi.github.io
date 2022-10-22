@@ -68,7 +68,8 @@ article h1 {
     font-size: 175%;
     color: blue;   
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+    display: inline-flex;
 
 }
 article h2{
