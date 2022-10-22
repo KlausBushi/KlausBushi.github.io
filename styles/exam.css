@@ -39,7 +39,9 @@ header {
     border-bottom: 4px solid blue;
     padding-bottom: 4.5em;
 }
-
+article { 
+    display: block;
+}
 article {
     clear: left;
     width: 75%;
