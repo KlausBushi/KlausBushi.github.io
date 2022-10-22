@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     margin-left: 10px;
     width: 95%;
@@ -14,7 +14,6 @@ body {
     border: 2px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    column-span: all;
 }
 
 #nav_menu ul {list-style-type: none;}
