@@ -49,9 +49,7 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
-article {
-    display: block;
-}
+
 img{
     float: left;
     text-indent: 30px;
