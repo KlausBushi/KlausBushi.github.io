@@ -58,7 +58,6 @@ img{
 article p::first-letter{
     font-size: 3em;
     font-weight: bold;
-    font-style: italic;
 }
 article h1 {
     font-size: 175%;
@@ -66,13 +65,10 @@ article h1 {
     padding-top: 1em;
     padding-bottom: 1em;
     display: block;
-    display: inline;
 }
 article h2{
     font-size: 175%;
     color: blue;
-    display: block;
-    display: inline;
 }
 aside{
     width: 20%;
