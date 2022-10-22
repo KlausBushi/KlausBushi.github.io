@@ -69,8 +69,6 @@ article h1{
     color: blue; 
 }
 article h2{
-
-    display: block;
     display: inline;
 }
 article h2 {
