@@ -56,7 +56,6 @@ img{
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
-    text-indent: 30px;
 }
 article p::first-letter{
     font-size: 3em;
