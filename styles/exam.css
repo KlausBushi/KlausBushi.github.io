@@ -41,7 +41,7 @@ header {
 }
 article { 
     display: block;
-    display: inline;
+    
 }
 article {
     clear: left;
@@ -52,6 +52,7 @@ article {
     column-gap: 2em;
     margin-left: 2em;
     padding-top: 2em;
+    display: inline;
 }
 
 img{
