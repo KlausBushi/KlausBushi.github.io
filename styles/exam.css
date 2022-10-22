@@ -48,6 +48,7 @@ article {
     column-rule: 3px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
+    padding-top: 2em;
 }
 
 img{
