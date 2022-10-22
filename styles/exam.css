@@ -67,7 +67,9 @@ article p::first-letter{
 article h1 {
     font-size: 175%;
     color: blue;   
-    display: inline;
+    padding-top: auto;
+    padding-bottom: auto;
+
 }
 article h2{
     font-size: 175%;
