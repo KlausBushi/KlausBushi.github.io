@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     margin-left: 10px;
     width: 95%;
@@ -41,7 +41,7 @@ header {
 }
 article { 
     display: block;
-    display: inline;
+
 }
 article {
     clear: left;
@@ -52,6 +52,7 @@ article {
     column-gap: 2em;
     margin-left: 2em;
     padding-top: 2em;
+    display: inline;
 }
 
 img{
@@ -68,6 +69,8 @@ article h1 {
     color: blue;   
     padding-top: 1em;
     padding-bottom: 1em;
+    display: block;
+    display: inline;
 }
 article h2{
     font-size: 175%;
