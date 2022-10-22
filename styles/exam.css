@@ -64,6 +64,7 @@ article h1 {
     color: blue;   
     padding-bottom: 3em;
     padding-top: 1em;
+    display: inline;
    
 }
 article h2{
