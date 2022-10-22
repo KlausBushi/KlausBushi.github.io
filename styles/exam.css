@@ -65,6 +65,7 @@ article h1 {
     padding-top: 1em;
     column-span: all;
     display: block;
+    display: inline;
    
 }
 article h2{
