@@ -72,6 +72,9 @@ article h2{
     color: blue;
     padding-bottom: 1em;
     padding-top: 1em;
+    display: inline;
+    display:block;
+
     }
 aside{
     width: 20%;
