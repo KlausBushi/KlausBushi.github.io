@@ -59,7 +59,6 @@ article p::first-letter{
     font-size: 3em;
 }
 article h1 {  
-    column-span: all;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 
