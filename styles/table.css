@@ -6,7 +6,6 @@ html, body {
     * {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     }
-    
     table.first {
         border-collapse: separate;
         border: 2px solid black;    
@@ -17,7 +16,6 @@ html, body {
     table.first tr:nth-child(odd) {
         background-color: lightblue;
     }
-
     table.second {    
         border-collapse: collapse; 
         border: 2px solid purple;   
@@ -34,4 +32,39 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
+
+    table.third{
+        border-collapse: collapse;
+    }
+
+    table.third th, table.third td{
+        vertical-align: top;
+        padding: 0.5em;
+    }
+   
+    table.third thead tr:first-child { 
+        border-top: 2px solid orangered; 
+        background-color:lightgreen;
+        border-bottom: 2px solid orangered;
+    }
+
+    table.third thead tr:nth-child(2) {
+        border-bottom: 2px solid orangered;
+        background-color: lightgreen;
+    }
+
+    table.third tr:last-child {
+        border-bottom: 2px solid orangered;
+    }
+           
+    @media only screen and (max-width: 425px) {
+        th, td {
+            display: block;
+        }
+        thead, td.number {
+            display: none;
+            padding: 0;
+        }    
+    }
+    
     
